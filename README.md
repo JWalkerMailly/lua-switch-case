@@ -34,7 +34,7 @@ switch(some_var,
 	end),
 	
 	case(some_var, function()
-	    print("Case statement of value will act like default.");
+		print("Case statement of value will act like default.");
 	end)
 );
 ```
