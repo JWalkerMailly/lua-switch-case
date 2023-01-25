@@ -13,7 +13,7 @@ end
 
 -- Switch will unbox our parameters for evaluation.
 switch = function(value, ...)
-	for _, v in ipairs{...} do if (value == v.cond and v.eval()) then break; end end
+	for _, c in ipairs{...} do if (value == c.cond and c.eval()) then break; end end
 end
 
 -- --------
